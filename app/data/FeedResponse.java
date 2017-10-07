@@ -1,7 +1,8 @@
 package data;
 
 public class FeedResponse {
-    public String keyword;
-    public String intent;
+    public String title;
+    public String description;
+    public String pubDate;
 
 }
