@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 #message-pane {
     background: url(http://opencuny.org/theadvocate/files/2014/12/Robots-parental-controls.png);
     background-repeat: no-repeat;
@@ -7,12 +9,22 @@
 
 .message-card {
     max-width: 60%;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 25px;
+    opacity: 0.9;
+    font-family: 'Cookie', cursive;
+    box-shadow: 5px 5px 6px 3px #637ee2;
 }
 
 .message-time {
     margin-top: 4px;
     color: #436d51;
-    font-size:10px;}
+    font-size:12px;
+    font-family: 'Metal Mania', cursive;
+}
+
+
+#form-card{
+    margin:0;
+}
