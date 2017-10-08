@@ -4,3 +4,15 @@
     background-size: cover;
     background-position: center center;
 }
+
+.message-card {
+    max-width: 60%;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.message-time {
+    margin-top: 4px;
+    color: #436d51;
+    font-size:10px;}
