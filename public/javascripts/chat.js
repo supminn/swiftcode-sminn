@@ -12,7 +12,8 @@ app.config(function ($mdThemingProvider) {
             .accentPalette('green', {
                 'default': 'A400',
                 'hue-1':'600'
-            });
+            })
+            .dark();//background
 });
 
 app.controller('chatController', function ($scope, $sce) {
